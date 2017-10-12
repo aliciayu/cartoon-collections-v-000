@@ -9,8 +9,12 @@ end
 
 def summon_captain_planet(array =planeteer_calls)# code an argument here
   # Your code here
-  array.map!(&:capitalize)
-  array"!"
+  words = array
+  index = 0
+  while index < words.length
+    words[index] = words[index].capitalize
+    index += 1
+    "#{words}!"
 end
 
 def long_planeteer_calls# code an argument here
