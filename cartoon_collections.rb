@@ -9,7 +9,6 @@ end
 
 def summon_captain_planet(array =planeteer_calls)# code an argument here
   # Your code here
-  array = "#{array}!"
   array.map { |word| word.capitalize }
 end
 
