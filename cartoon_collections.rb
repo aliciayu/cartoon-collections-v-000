@@ -9,9 +9,7 @@ end
 
 def summon_captain_planet(array =planeteer_calls)# code an argument here
   # Your code here
-  index = 0
   array.map(&capitalize)
-    index += 1
     "#{array}!"
 end
 
