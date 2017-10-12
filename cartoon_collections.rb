@@ -9,7 +9,7 @@ end
 
 def summon_captain_planet(array)# code an argument here
   # Your code here
-  array.split.map(&capitalize).join(" ")
+  array.split.map(&capitalize).join(" !")
 end
 
 def long_planeteer_calls# code an argument here
