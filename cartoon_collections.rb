@@ -1,8 +1,8 @@
-def roll_call_dwarves(dwarves)# code an argument here
+def roll_call_dwarves(array)# code an argument here
   # Your code here
   index = 1
-  dwarves.each do |dwarves|
-    puts "#{index}. #{dwarves}"
+  array.each do |array|
+    puts "#{index}. #{array}"
     index += 1
   end
 end
