@@ -9,7 +9,7 @@ end
 
 def summon_captain_planet(planeteer_calls)# code an argument here
   # Your code here
-  words = planeteer_calls
+  words = planeteer_calls.split(" ")
 
   index = 0
   while index < words.length
