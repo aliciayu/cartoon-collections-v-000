@@ -9,7 +9,12 @@ end
 
 def summon_captain_planet(planeteer_calls)# code an argument here
   # Your code here
-  
+  index = 0
+  while index < planeteer_calls.length
+    planeteer_calls[index] [0] = planeteer_calls[index] [0].capitalize
+    index += 1
+  end
+  planeteer_calls.join(" !")
 end
 
 def long_planeteer_calls# code an argument here
