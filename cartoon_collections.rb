@@ -9,9 +9,9 @@ end
 
 def summon_captain_planet(array)# code an argument here
   # Your code here
-  array.each do |word|
-    word.capitalize!
-    puts "#{word}!"
+  array.each do |w|
+    w.capitalize!
+    puts "#{w}!"
   end
 end
 
